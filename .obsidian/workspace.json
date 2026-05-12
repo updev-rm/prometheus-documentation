@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "48502a4ca4c33eb8",
+        "id": "00a355e5fdfd4a89",
         "type": "tabs",
         "children": [
           {
-            "id": "3cb391b86595aed8",
+            "id": "f93eb355f44bb708",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -191,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3cb391b86595aed8",
+  "active": "f93eb355f44bb708",
   "lastOpenFiles": [
     "Prueba de sincronizacion.md",
     "Sin título.md"
