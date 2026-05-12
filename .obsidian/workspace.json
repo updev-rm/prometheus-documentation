@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pruebas y errores/Sin título.md",
+                "file": "Pruebas y errores/Pruebas y errores encontrados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sin título"
+              "title": "Pruebas y errores encontrados"
             }
           }
         ]
@@ -194,7 +194,7 @@
   "active": "9bca55f75639bf5c",
   "lastOpenFiles": [
     "Prueba de sincronizacion.md",
-    "Pruebas y errores/Sin título.md",
+    "Pruebas y errores/Pruebas y errores encontrados.md",
     "Pruebas y errores",
     "Documentación",
     "Sin título.md"
