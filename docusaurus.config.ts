@@ -9,10 +9,6 @@ const config: Config = {
   tagline: 'Documentación de la plataforma Selvo / Prometheus',
   favicon: 'img/favicon.ico',
 
-  future: {
-    v4: true,
-  },
-
   url: 'https://updev-rm.github.io',
   baseUrl: '/prometheus-documentation/',
 
@@ -20,7 +16,6 @@ const config: Config = {
   projectName: 'prometheus-documentation',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'es',
