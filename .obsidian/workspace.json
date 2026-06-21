@@ -168,8 +168,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -187,12 +187,12 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Crear nueva base": false
     }
   },
   "active": "9bca55f75639bf5c",
   "lastOpenFiles": [
+    "docs/backend/api/bot-whatsapp.md",
     "Prueba de sincronizacion.md",
     "Pruebas y errores/Pruebas y errores encontrados.md",
     "Pruebas y errores",
