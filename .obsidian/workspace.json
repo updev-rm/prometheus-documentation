@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pruebas y errores/Pruebas y errores encontrados.md",
+                "file": "docs/backend/api/products-orders.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pruebas y errores encontrados"
+              "title": "products-orders"
             }
           }
         ]
@@ -168,8 +168,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -187,14 +187,43 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "9bca55f75639bf5c",
   "lastOpenFiles": [
+    "docs/backend/api/conversations.md",
     "docs/backend/api/bot-whatsapp.md",
-    "Prueba de sincronizacion.md",
+    "docs/backend/api/overview.md",
+    "docs/backend/api/auth.md",
+    "docs/architecture/overview.md",
+    "static/img/favicon.ico",
+    "mise.toml",
+    "README.md",
+    "docs/qa/known-issues.md",
+    "docs/qa/testing-strategy.md",
+    "docs/qa",
+    "docs/operations/environments.md",
+    "docs/architecture/multi-tenancy.md",
+    "docs/operations/ci-cd.md",
+    "docs/operations",
+    "docs/frontend/development.md",
+    "docs/frontend/infrastructure-layer.md",
+    "docs/architecture/data-flow.md",
+    "docs/frontend/presentation-layer.md",
+    "docs/frontend/routing.md",
     "Pruebas y errores/Pruebas y errores encontrados.md",
+    "docs/frontend/architecture.md",
+    "docs/frontend/overview.md",
+    "docs/frontend",
+    "docs/backend/deployment.md",
+    "docs/backend/database/migrations.md",
+    "docs/backend/database/schema.md",
+    "docs/backend/database",
+    "docs/backend/services/overview.md",
+    "docs/backend/services",
+    "Prueba de sincronizacion.md",
     "Pruebas y errores",
     "Documentación",
     "Sin título.md"

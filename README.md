@@ -1,0 +1,74 @@
+# Prometheus Documentation
+
+Documentación centralizada de la plataforma **Prometheus / Selvo**, construida con [Docusaurus 3](https://docusaurus.io/).
+
+Cubre:
+
+- [prometheus-service](https://github.com/updev-rm/prometheus-service) — API REST, bot WhatsApp, IA
+- [prometheus-interface](https://github.com/updev-rm/prometheus-interface) — Panel Angular + landing
+
+## Arquitectura de la documentación
+
+Organizada según **[Diátaxis](https://diataxis.fr/)**:
+
+| Sección | Tipo | Contenido |
+|---------|------|-----------|
+| Primeros pasos | Tutorial | Setup local, variables de entorno |
+| Arquitectura | Explicación | Contexto C4, flujos, multi-tenancy |
+| Backend / Frontend | Referencia | API, servicios, capas Angular |
+| Operaciones | How-to | CI/CD, entornos |
+| Calidad | How-to | Pruebas, registro de bugs |
+
+## Requisitos
+
+- Node.js 20+
+- npm (o pnpm)
+
+## Desarrollo local
+
+```bash
+npm install
+npm start
+```
+
+Abre [http://localhost:3000](http://localhost:3000). Si el puerto está ocupado por prometheus-service:
+
+```bash
+npm start -- --port 3001
+```
+
+## Build
+
+```bash
+npm run build
+npm run serve   # preview del sitio estático
+```
+
+Salida en `build/`.
+
+## Estructura del repo
+
+```text
+docs/                 # Contenido Markdown
+sidebars.ts           # Navegación lateral
+docusaurus.config.ts  # Configuración del sitio
+src/pages/            # Homepage custom
+static/               # Assets estáticos
+```
+
+## Publicar en GitHub Pages
+
+1. Ajustar `url` y `baseUrl` en `docusaurus.config.ts`.
+2. Ejecutar `npm run build`.
+3. Desplegar carpeta `build/` (ver [CI/CD — documentación](/docs/operations/ci-cd)).
+
+## Contribuir
+
+1. Editar o añadir archivos en `docs/`.
+2. Registrar la página en `sidebars.ts` si es una sección nueva.
+3. Usar front matter YAML (`title`, `description`, `sidebar_position`).
+4. Diagramas con [Mermaid](https://mermaid.js.org/) (habilitado en config).
+
+## Legacy Obsidian
+
+La carpeta `.obsidian/` y `Pruebas y errores/` son restos del vault anterior. El contenido de QA migra a `docs/qa/`.
