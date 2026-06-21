@@ -49,8 +49,8 @@ Para publicar este sitio:
 
 ```bash
 cd prometheus-documentation
-npm install
-npm run build
+pnpm install
+pnpm run build
 # Deploy con gh-pages o GitHub Actions
 ```
 
@@ -72,10 +72,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.3.0
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm ci && npm run build
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile && pnpm run build
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

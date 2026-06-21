@@ -79,7 +79,7 @@ Registrar bugs y resultados en [Issues conocidos](/docs/qa/known-issues) con:
 
 ## CI
 
-Pipelines actuales validan **build/syntax** más que tests automatizados. Objetivo: añadir `npm test` / `pnpm test` en CI cuando haya suite estable.
+Pipelines actuales validan **build/syntax** más que tests automatizados. Objetivo: añadir `pnpm test` en CI cuando haya suite estable.
 
 ## Definición de Done (QA)
 

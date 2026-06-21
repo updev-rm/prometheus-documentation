@@ -21,27 +21,27 @@ Organizada según **[Diátaxis](https://diataxis.fr/)**:
 
 ## Requisitos
 
-- Node.js 20+
-- npm (o pnpm)
+- Node.js 20+ (recomendado 24 — ver `mise.toml`)
+- pnpm 9+ (recomendado 11.3.0)
 
 ## Desarrollo local
 
 ```bash
-npm install
-npm start
+pnpm install
+pnpm start
 ```
 
 Abre [http://localhost:3000](http://localhost:3000). Si el puerto está ocupado por prometheus-service:
 
 ```bash
-npm start -- --port 3001
+pnpm start -- --port 3001
 ```
 
 ## Build
 
 ```bash
-npm run build
-npm run serve   # preview del sitio estático
+pnpm run build
+pnpm run serve   # preview del sitio estático
 ```
 
 Salida en `build/`.
@@ -59,7 +59,7 @@ static/               # Assets estáticos
 ## Publicar en GitHub Pages
 
 1. Ajustar `url` y `baseUrl` en `docusaurus.config.ts`.
-2. Ejecutar `npm run build`.
+2. Ejecutar `pnpm run build`.
 3. Desplegar carpeta `build/` (ver [CI/CD — documentación](/docs/operations/ci-cd)).
 
 ## Contribuir

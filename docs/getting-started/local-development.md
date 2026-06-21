@@ -54,7 +54,7 @@ Al iniciar, el servicio conecta Supabase, levanta bots de admins activos y arran
 
 ```bash
 cd prometheus-interface
-pnpm install   # o npm install
+pnpm install
 pnpm run start:local
 ```
 
@@ -64,14 +64,14 @@ La app corre en **puerto 4205** (`ng serve --configuration local`). Las configur
 
 ```bash
 cd prometheus-documentation
-npm install
-npm start
+pnpm install
+pnpm start
 ```
 
 Docusaurus sirve en `http://localhost:3000` por defecto. Si choca con el backend, usa:
 
 ```bash
-npm start -- --port 3001
+pnpm start -- --port 3001
 ```
 
 ## Orden recomendado de arranque

@@ -193,6 +193,7 @@
   },
   "active": "9bca55f75639bf5c",
   "lastOpenFiles": [
+    "pnpm-workspace.yaml",
     "build/docs/backend/services/overview/index.html",
     "build/docs/backend/database/schema/index.html",
     "build/docs/backend/database/migrations/index.html",
@@ -203,7 +204,6 @@
     "build/docs/backend/api/bot-whatsapp/index.html",
     "build/docs/qa/testing-strategy/index.html",
     "build/docs/qa/known-issues/index.html",
-    "build/docs/operations/environments/index.html",
     "build/img/logo.svg",
     "node_modules/core-js/README.md",
     "node_modules/webpack/README.md",
