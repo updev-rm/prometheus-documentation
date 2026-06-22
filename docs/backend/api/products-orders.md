@@ -10,15 +10,16 @@ Requiere autenticación (`requireAuth`) salvo donde se indique.
 
 ## Productos
 
-| Método | Ruta | Descripción |
-|--------|------|-------------|
-| GET | `/api/products` | Lista productos del admin |
-| GET | `/api/products/:id/edit-preview` | Preview antes de editar |
-| POST | `/api/products` | Crear (multipart: imagen/video) |
-| PUT | `/api/products/:id` | Actualizar |
-| DELETE | `/api/products/:id` | Eliminar / desactivar |
-| GET | `/api/products/export` | Export Excel |
-| GET | `/api/products/export-pdf` | Export PDF (plan) |
+| Método | Ruta                             | Descripción                     |
+| ------ | -------------------------------- | ------------------------------- |
+| GET    | `/api/products`                  | Lista productos del admin       |
+| GET    | `/api/products/:id/edit-preview` | Preview antes de editar         |
+| POST   | `/api/products`                  | Crear (multipart: imagen/video) |
+| PUT    | `/api/products/:id`              | Actualizar                      |
+| DELETE | `/api/products/:id`              | Eliminar / desactivar           |
+| GET    | `/api/products/export`           | Export Excel                    |
+| GET    | `/api/products/export-pdf`       | Export PDF (plan)               |
+|        |                                  |                                 |
 
 **Upload:** imágenes y videos, máx. 10 MB (`multer` en `apiRoutes.js`).
 
