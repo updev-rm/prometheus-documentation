@@ -45,46 +45,34 @@ Script auxiliar: `ci/gitlab/scripts/create-git-tag.sh` para versionado.
 
 ## Documentación — GitHub Pages
 
-Para publicar este sitio:
+**URL publicada:** https://updev-rm.github.io/prometheus-documentation/
+
+El workflow `.github/workflows/docs.yml` se ejecuta en cada push a `master` y en manual (**Actions → Docs — GitHub Pages → Run workflow**).
+
+### Activación (una sola vez)
+
+1. Repo → **Settings → Pages**
+2. **Build and deployment → Source:** GitHub Actions
+3. Push a `master` o ejecutar el workflow manualmente
+
+### Build local
 
 ```bash
 cd prometheus-documentation
 pnpm install
 pnpm run build
-# Deploy con gh-pages o GitHub Actions
 ```
 
-Ajustar en `docusaurus.config.ts`:
+Salida en `build/`. Config en `docusaurus.config.ts`:
 
 ```typescript
 url: 'https://updev-rm.github.io',
 baseUrl: '/prometheus-documentation/',
 ```
 
-Workflow sugerido (`.github/workflows/docs.yml`):
+### Workflow actual
 
-```yaml
-on:
-  push:
-    branches: [master]
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 11.3.0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: pnpm
-      - run: pnpm install --frozen-lockfile && pnpm run build
-      - uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
-```
+El job `build` compila con pnpm; el job `deploy` publica con `actions/deploy-pages@v4` (no requiere rama `gh-pages`).
 
 ## Buenas prácticas
 

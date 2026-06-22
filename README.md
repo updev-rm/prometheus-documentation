@@ -58,9 +58,15 @@ static/               # Assets estáticos
 
 ## Publicar en GitHub Pages
 
-1. Ajustar `url` y `baseUrl` en `docusaurus.config.ts`.
-2. Ejecutar `pnpm run build`.
-3. Desplegar carpeta `build/` (ver [CI/CD — documentación](/docs/operations/ci-cd)).
+**Sitio en vivo:** https://updev-rm.github.io/prometheus-documentation/
+
+Deploy automático vía GitHub Actions (`.github/workflows/docs.yml`) en cada push a `master`.
+
+Primera vez: **Settings → Pages → Source: GitHub Actions**.
+
+```bash
+pnpm run build   # preview local en build/
+```
 
 ## Contribuir
 
