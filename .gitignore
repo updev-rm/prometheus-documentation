@@ -19,5 +19,6 @@ yarn-error.log*
 
 # IDE
 .idea/
+.obsidian/
 *.swp
 *.swo

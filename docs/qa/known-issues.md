@@ -8,10 +8,6 @@ description: Registro de pruebas, bugs y deuda técnica documentada.
 
 Registro vivo de hallazgos de QA. Actualizar en cada sprint o release.
 
-:::info Origen
-Este documento sustituye el vault Obsidian **Pruebas y errores**. El archivo legacy en `Pruebas y errores/Pruebas y errores encontrados.md` se mantiene como referencia histórica.
-:::
-
 ## Plantilla de entrada
 
 ```markdown
@@ -32,14 +28,7 @@ Este documento sustituye el vault Obsidian **Pruebas y errores**. El archivo leg
 
 ## Registro
 
-### Documentación inicial — 2025-06-21
-
-- **Severidad:** baja
-- **Entorno:** n/a
-- **Repo:** prometheus-documentation
-- **Notas:** Sitio Docusaurus creado. Pendiente poblar con issues reales del equipo y migrar entradas desde Obsidian.
-
----
+_Añade aquí bugs y hallazgos de QA conforme se detecten._
 
 ## Cómo contribuir
 

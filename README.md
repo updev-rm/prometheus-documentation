@@ -74,7 +74,3 @@ pnpm run build   # preview local en build/
 2. Registrar la página en `sidebars.ts` si es una sección nueva.
 3. Usar front matter YAML (`title`, `description`, `sidebar_position`).
 4. Diagramas con [Mermaid](https://mermaid.js.org/) (habilitado en config).
-
-## Legacy Obsidian
-
-La carpeta `.obsidian/` y `Pruebas y errores/` son restos del vault anterior. El contenido de QA migra a `docs/qa/`.
