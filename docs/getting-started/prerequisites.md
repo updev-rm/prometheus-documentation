@@ -10,7 +10,7 @@ description: Herramientas y cuentas necesarias para trabajar en Prometheus.
 
 | Herramienta | Versión mínima | Uso |
 |-------------|----------------|-----|
-| **Node.js** | 20+ (recomendado 24) | Backend y Docusaurus |
+| **Node.js** | 22.13+ (recomendado 24) | Backend y Docusaurus |
 | **pnpm** | 9+ (recomendado 11.3.0) | Gestor de paquetes (todos los repos) |
 | **Angular CLI** | 19.x | Frontend (`ng`) |
 | **Git** | 2.x | Control de versiones |

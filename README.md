@@ -21,7 +21,7 @@ Organizada según **[Diátaxis](https://diataxis.fr/)**:
 
 ## Requisitos
 
-- Node.js 20+ (recomendado 24 — ver `mise.toml`)
+- Node.js 22.13+ (recomendado 24 — ver `mise.toml`)
 - pnpm 9+ (recomendado 11.3.0)
 
 ## Desarrollo local
