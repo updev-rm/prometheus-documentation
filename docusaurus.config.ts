@@ -6,8 +6,8 @@ const REPO = 'updev-rm/prometheus-documentation';
 
 const config: Config = {
   title: 'Prometheus Docs',
-  tagline: 'Documentación de la plataforma Selvo / Prometheus',
-  favicon: 'img/favicon.ico',
+  tagline: 'Ventas automatizadas por WhatsApp con IA — guía técnica para desarrolladores',
+  favicon: 'img/logo.svg',
 
   url: 'https://updev-rm.github.io',
   baseUrl: '/prometheus-documentation/',
@@ -48,13 +48,18 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/prometheus-social-card.jpg',
+    image: 'img/og-image.svg',
+    metadata: [
+      {name: 'keywords', content: 'Prometheus, Selvo, WhatsApp, documentación, Angular, Node.js'},
+      {name: 'description', content: 'Documentación técnica de la plataforma Prometheus / Selvo.'},
+    ],
     colorMode: {
       defaultMode: 'light',
       respectPrefersColorScheme: true,
     },
     navbar: {
       title: 'Prometheus',
+      hideOnScroll: true,
       logo: {
         alt: 'Prometheus',
         src: 'img/logo.svg',
@@ -117,7 +122,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} UPDEV. Documentación generada con Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} UPDEV · Selvo / Prometheus`,
     },
     prism: {
       theme: prismThemes.github,

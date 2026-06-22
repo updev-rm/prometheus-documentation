@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0a1410"/>
+  <rect width="1200" height="630" fill="url(#bg)" opacity="0.9"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14532d"/>
+      <stop offset="0.5" stop-color="#0a1410"/>
+      <stop offset="1" stop-color="#052e16"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="80" y1="80" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4ade80"/>
+      <stop offset="1" stop-color="#16a34a"/>
+    </linearGradient>
+  </defs>
+  <circle cx="980" cy="120" r="220" fill="#22c55e" opacity="0.08"/>
+  <circle cx="200" cy="520" r="180" fill="#4ade80" opacity="0.06"/>
+  <rect x="80" y="80" width="88" height="88" rx="22" fill="url(#accent)"/>
+  <path d="M124 108c-3 0-5.5 2.5-5.5 5.5v8.5c-9.3 1.6-16.5 9.6-16.5 19.3 0 10.7 8.7 19.3 19.3 19.3s19.3-8.6 19.3-19.3c0-9.7-7.2-17.7-16.5-19.3v-8.5c0-3-2.5-5.5-5.5-5.5Z" fill="#fff" opacity="0.95"/>
+  <text x="200" y="155" fill="#f0fdf4" font-family="system-ui,sans-serif" font-size="64" font-weight="700">Prometheus Docs</text>
+  <text x="200" y="220" fill="#86efac" font-family="system-ui,sans-serif" font-size="32" font-weight="500">Plataforma Selvo · WhatsApp + IA</text>
+</svg>
