@@ -83,15 +83,18 @@
 }
 
 .heroBtnSecondary {
-  --ifm-button-background-color: rgba(255, 255, 255, 0.06);
-  --ifm-button-border-color: rgba(134, 239, 172, 0.28);
-  color: #ecfdf3 !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1.5px solid rgba(167, 243, 208, 0.55) !important;
+  color: #f0fdf4 !important;
   backdrop-filter: blur(8px);
+  box-shadow: none;
 }
 
 .heroBtnSecondary:hover {
-  --ifm-button-background-color: rgba(255, 255, 255, 0.1);
-  color: #fff !important;
+  background: rgba(255, 255, 255, 0.16) !important;
+  border-color: rgba(187, 247, 208, 0.75) !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .stats {

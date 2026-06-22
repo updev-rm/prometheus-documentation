@@ -72,7 +72,7 @@ function HomepageHeader() {
             <Link className={clsx('button button--primary button--lg', styles.heroBtnPrimary)} to="/docs/intro">
               Empezar
             </Link>
-            <Link className={clsx('button button--secondary button--lg', styles.heroBtnSecondary)} to="/docs/architecture/overview">
+            <Link className={clsx('button button--lg', styles.heroBtnSecondary)} to="/docs/architecture/overview">
               Ver arquitectura
             </Link>
           </div>
